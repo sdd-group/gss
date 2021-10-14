@@ -1,5 +1,5 @@
 apiVersion: v2
-name: go-sample-site-3
+name: go-sample-site
 description: A go sample site
 
 # A chart can be either an 'application' or a 'library' chart.
