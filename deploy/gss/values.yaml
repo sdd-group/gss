@@ -6,11 +6,10 @@ env: dev
 
 ingressClassName: koderover-admin-nginx
 
-service:
-  image:
-    repository: ccr.ccs.tencentyun.com/trial/new-go-sample-site
-    pullPolicy: IfNotPresent
-    tag: 0.1.0
+image:
+  repository: ccr.ccs.tencentyun.com/trial/new-go-sample-site
+  pullPolicy: IfNotPresent
+  tag: 0.1.0
 
 imagePullSecrets:
   - name: default-candidate-registry-secret
