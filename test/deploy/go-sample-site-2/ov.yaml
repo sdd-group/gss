@@ -1,0 +1,5 @@
+test2.yaml: |
+    debug: 1
+    loglevel: 2
+    testData: 
+      secondData:3
