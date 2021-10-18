@@ -20,6 +20,7 @@ spec:
       {{- end }}
       containers:
         - name: go-sample-site
+          testKey: {{ .Values.github.knownHost | default "" | quote }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
