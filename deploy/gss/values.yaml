@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-env: dev
+env: dev11
 
 ingressClassName: koderover-admin-nginx
 
@@ -14,7 +14,7 @@ image:
 imagePullSecrets:
   - name: default-candidate-registry-secret
 
-nameOverride: ""
+nameOverride: 
 fullnameOverride: ""
 
 service:
