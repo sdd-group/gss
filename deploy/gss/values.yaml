@@ -29,9 +29,7 @@ github:
 customTag:
   first:
     $parama$
-  second:
-    $second$ 
-
+ 
 secondCustomTag:
   first:
     $parama$
