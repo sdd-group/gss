@@ -29,7 +29,7 @@ github:
 customTag:
   first:
     {{.parama}}
- 
+    {{.paramc}} 
 secondCustomTag:
   first:
     {{.parama}}
