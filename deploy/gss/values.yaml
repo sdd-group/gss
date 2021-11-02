@@ -25,13 +25,3 @@ service:
 github:
   knownHost:
   sshKey:
-
-customTag:
-  first:
-    {{.parama}}
-    {{.paramc}} 
-secondCustomTag:
-  first:
-    {{.parama}}
-  second:
-    {{.paramc}}  
