@@ -21,6 +21,7 @@ service:
   type: ClusterIP
   port: 8080
   port2: 8000
+  testK: {{.param1}}
 
 github:
   knownHost:
