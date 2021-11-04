@@ -22,7 +22,7 @@ service:
   port: 8080
   port2: 8000
   testK: {{.param1}}
-  preset1: {{.SERVICENAME}}
+  preset1: $T-Service$
 
 github:
   knownHost:
