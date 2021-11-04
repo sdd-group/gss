@@ -23,6 +23,7 @@ service:
   port2: 8000
   testK: {{.param1}}
   preset1: $T-Service$
+  presetProjectName: $T-Project$
 
 github:
   knownHost:
