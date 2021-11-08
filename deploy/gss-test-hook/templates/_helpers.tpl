@@ -51,6 +51,21 @@ app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end }}
 
 {{/*
+=====================================================
+=          POST HOOK SETTINGS           =
+=====================================================
+*/}}
+{{- define "zadig.postHook.labels" -}}
+app.kubernetes.io/component: post-hook
+{{ include "zadig.labels" . }}
+{{- end }}
+
+{{- define "zadig.postHook.selectorLabels" -}}
+app.kubernetes.io/component: post-hook
+{{ include "zadig.selectorLabels" . }}
+{{- end }}
+
+{{/*
 Create the name of the service account to use
 */}}
 {{- define "go-sample-site.serviceAccountName" -}}
