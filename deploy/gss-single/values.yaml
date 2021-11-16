@@ -12,7 +12,7 @@ image:
   tag: 0.1.0
 
 imagePullSecrets:
-  - name: default-candidate-registry-secret
+  - name: default-registry-secret
 
 nameOverride: 
 fullnameOverride: ""
