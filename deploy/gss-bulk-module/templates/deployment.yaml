@@ -20,7 +20,7 @@ spec:
       {{- end }}
       serviceAccountName: {{ .Values.github.knownHost | default "" | quote }}
       containers:
-        - name: go-sample-site
+        - name: go-sample-site-custom
 
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
