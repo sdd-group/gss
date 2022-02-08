@@ -6,7 +6,6 @@ import (
 	"os"
 	"os/signal"
 	"syscall"
-
 	"go-sample-site/pkg/server"
 )
 
