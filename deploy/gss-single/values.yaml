@@ -24,6 +24,11 @@ service:
   preset1: $T-Service$
   presetProjectName: $T-Project$
 
+parent:
+  child1: 
+    son: hello
+
+
 github:
   knownHost:
   sshKey:
