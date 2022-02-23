@@ -7,8 +7,9 @@ env: dev
 ingressClassName: koderover-admin-nginx
 
 image:
-  repository: ccr.ccs.tencentyun.com/trial/go-sample-site
   pullPolicy: IfNotPresent
+  repo: ccr.ccs.tencentyun.com/trial
+  name: go-sample-site
   tag: "0.1.0"
 
 testSpec:
