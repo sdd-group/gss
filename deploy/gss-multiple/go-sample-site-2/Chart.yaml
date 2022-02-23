@@ -1,6 +1,6 @@
 apiVersion: v2
 name: go-sample-site-2
-description: A go sample site
+description: A go sample site, hello
 
 # A chart can be either an 'application' or a 'library' chart.
 #
