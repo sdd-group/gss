@@ -6,11 +6,18 @@ env: dev
 
 ingressClassName: koderover-admin-nginx
 
+global:
+  hub: ccr.ccs.tencentyun.com/trial
+
 image:
-  repo: ccr.ccs.tencentyun.com/trial
   name: go-sample-site
   pullPolicy: IfNotPresent
   tag: 0.1.0
+
+imageNew:
+  name: go-site
+  tag: 0.1.0
+  pullPolicy: IfNotPresent
 
 imagePullSecrets:
   - name: default-registry-secret
