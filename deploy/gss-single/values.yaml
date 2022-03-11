@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-env: dev47
+env: dev48
 
 ingressClassName: koderover-admin-nginx
 
@@ -10,12 +10,6 @@ image:
   repository: ccr.ccs.tencentyun.com/trial/go-sample-site
   pullPolicy: IfNotPresent
   tag: 0.1.0
-
-newImage:
-  image: 
-    repository: ccr.ccs.tencentyun.com/trial/go-sample-site-1
-    pullPolicy: IfNotPresent
-    tag: 0.1.0 
 
 imagePullSecrets:
   - name: default-registry-secret
