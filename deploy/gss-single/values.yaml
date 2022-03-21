@@ -11,10 +11,10 @@ image:
   pullPolicy: IfNotPresent
   tag: 0.3.0
 
-image_new:
-  repository: ccr.ccs.tencentyun.com/trial/go-sample-site-bin
-  pullPolicy: IfNotPresent
-  tag: 0.3.0
+# image_new:
+#   repository: ccr.ccs.tencentyun.com/trial/go-sample-site-bin
+#   pullPolicy: IfNotPresent
+#   tag: 0.3.0
 
 imagePullSecrets:
   - name: default-registry-secret
