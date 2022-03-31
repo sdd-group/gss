@@ -28,6 +28,8 @@ service:
   port2: 8000  
   preset1: $T-Service$
   presetProjectName: $T-Project$
+  custom: {{.custom}}
+  custom-new: {{.custom-new}}
 
 parent:
   child1: 
