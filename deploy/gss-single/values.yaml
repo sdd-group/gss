@@ -27,7 +27,7 @@ service:
   preset1: $T-Service$
   presetProjectName: $T-Project$
   custom: {{.custom}}
-  custom-new: {{.custom-new}}
+  customNew: {{.customNew}}
 
 parent:
   child1: 
