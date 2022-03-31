@@ -28,6 +28,7 @@ service:
   presetProjectName: $T-Project$
   custom: {{.custom}}
   customNew: {{.customNew}}
+  customV1: {{.customV1}}
 
 parent:
   child1: 
