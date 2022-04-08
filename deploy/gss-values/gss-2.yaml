@@ -30,5 +30,5 @@ service:
 mLines:
   first.yaml: |
     ttt: ttt
-    bbb: bbb
+    bbb: bbbtest
     xxx: xxx
