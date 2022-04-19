@@ -21,7 +21,6 @@ service:
   type: ClusterIP
   port: 8080
   port2: 8000
-  testK: {{.param1}}
   preset1: $T-Service$
   presetProjectName: $T-Project$
 
