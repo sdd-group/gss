@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-env: dev54
+env: dev55
 
 ingressClassName: koderover-admin-nginx
 
@@ -26,9 +26,6 @@ service:
   type: ClusterIP
   preset1: $T-Service$
   presetProjectName: $T-Project$
-  custom: {{.custom}}
-  customNew: {{.customNew}}
-  customV1: {{.customV1}}
 
 parent:
   child1: 
