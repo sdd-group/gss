@@ -26,6 +26,10 @@ service:
   type: ClusterIP
   preset1: $T-Service$
   presetProjectName: $T-Project$
+  custom: {{.custom}}
+  customNew: {{.customNew}}
+  customV1: {{.customV1}}
+  customV2: {{.customV2}}
 
 parent:
   child1: 
