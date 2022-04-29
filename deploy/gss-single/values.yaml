@@ -23,7 +23,7 @@ service:
   presetProjectName: $T-Project$
   custom: {{.custom}}
   custom28: {{.custom28}}
-  custom29: {{.custom29}}
+  custom30: {{.custom30}}
 
 parent:
   child1: 
