@@ -28,6 +28,7 @@ service:
 parent:
   child1: 
     son: hello
+    newSon: hello1
 
 
 github:
