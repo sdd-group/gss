@@ -29,6 +29,7 @@ parent:
   child1: 
     son: hello
     newSon: hello1
+    newSon2: hello2
 
 
 github:
