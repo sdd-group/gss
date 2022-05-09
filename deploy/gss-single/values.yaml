@@ -25,6 +25,7 @@ service:
   custom28: {{.custom28}}
   custom30: {{.custom30}}
   custom31: {{.custom31}}
+  custom32: {{.custom32}}
 
 parent:
   child1: 
