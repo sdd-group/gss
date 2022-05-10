@@ -23,7 +23,7 @@ service:
   port2: 8000
   preset1: $T-Service$
   presetProjectName: $T-Project$
-  hello: world2
+  hello: world3
 
 github:
   knownHost:
