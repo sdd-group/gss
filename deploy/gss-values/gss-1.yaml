@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-env: dev-1.11.0-1
+env: dev-1.11.0-1-new
 env1: dev20-1.11.0-1
 
 ingressClassName: koderover-admin-nginx
