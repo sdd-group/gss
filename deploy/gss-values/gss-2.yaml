@@ -4,7 +4,7 @@
 
 env: dev-new-edit
 env2: dev2
-newAdd: gss-2-1
+newAdd: gss-2-2
 
 ingressClassName: koderover-admin-nginx
 
