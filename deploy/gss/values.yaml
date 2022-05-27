@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 env: dev20
-env-single: test
+env-single: test-1
 
 ingressClassName: koderover-admin-nginx
 
