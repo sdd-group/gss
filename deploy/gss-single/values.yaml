@@ -3,6 +3,7 @@
 # Declare variables to be passed into your templates.
 
 env: dev57
+env-template: hello
 
 ingressClassName: koderover-admin-nginx
 
