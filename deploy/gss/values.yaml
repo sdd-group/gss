@@ -4,6 +4,7 @@
 
 env: dev20
 env-single: test-1
+trigger: test-1
 
 ingressClassName: koderover-admin-nginx
 
