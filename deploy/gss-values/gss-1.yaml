@@ -5,6 +5,7 @@
 env: dev-1.11.0-1-new-5
 env1: dev20-1.11.0-1
 envDefault: hello-1
+trigger: test-2
 
 ingressClassName: koderover-admin-nginx
 
